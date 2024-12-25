@@ -100,6 +100,7 @@ ats_sites = [
     "workable.com",
     "breezy.hr",
     "applytojob.com"
+    "workdayjobs.com"
 ]
 
 # Streamlit UI
