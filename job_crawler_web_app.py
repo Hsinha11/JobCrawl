@@ -111,7 +111,7 @@ st.write("Enter your search query for job postings:")
 query_input = st.text_input("Search Query", value="software engineer india")
 
 # Input box for number of pages
-num_pages_input = st.number_input("Number of Pages to Search", min_value=1, max_value=20, value=5)
+num_pages_input = st.number_input("Number of Pages to Search", min_value=1, max_value=200, value=5)
 
 # Button to fetch job links
 if st.button("Fetch Job Links"):
